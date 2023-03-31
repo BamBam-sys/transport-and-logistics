@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Krub:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: 'Krub', sans-serif;
+    font-size: 62.5%;
+  }
+
+  body {
+    @apply text-paragraphFont;
+  }
+
+  .custom-container-one {
+    @apply max-w-[119.9rem] mx-auto;
+  }
+
+  .custom-container-two {
+    @apply max-w-[167.2rem] w-[90%] mx-auto;
+  }
+}
