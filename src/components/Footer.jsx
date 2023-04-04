@@ -5,13 +5,14 @@ import phoneIcon from '../assets/phone-Icon.png';
 import { AiOutlineTwitter } from 'react-icons/ai';
 import { AiFillLinkedin } from 'react-icons/ai';
 import { BsFacebook } from 'react-icons/bs';
+import bg from '../assets/footer-bg.png';
 
 const Footer = () => {
   return (
     <div>
       <div
         className="bg-cover bg-no-repeat bg-center h-[41.2rem]  w-full "
-        style={{ backgroundImage: "url('/src/assets/footer-bg.png')" }}
+        style={{ backgroundImage: `url(${bg})` }}
       ></div>
 
       <div className="bg-primary-200 pb-[9.8rem] ">

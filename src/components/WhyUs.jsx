@@ -8,6 +8,7 @@ import transport1 from '../assets/transport-1.png';
 import transport2 from '../assets/transport-2.png';
 import transport3 from '../assets/transport-3.png';
 import transport4 from '../assets/transport-4.png';
+import bg from '../assets/whyus-bg.png';
 
 const data = [
   {
@@ -53,7 +54,7 @@ const WhyUs = () => {
     <div>
       <div
         className="bg-cover bg-no-repeat bg-center h-[50.4rem]  w-full "
-        style={{ backgroundImage: "url('/src/assets/whyus-bg.png')" }}
+        style={{ backgroundImage: `url(${bg})` }}
       ></div>
       <div className="custom-container-one bg-white mt-[-11rem] py-[8.5rem] px-[9rem]  ">
         <div className="flex">

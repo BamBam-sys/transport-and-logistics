@@ -1,11 +1,12 @@
 import { Button } from '../common';
 import Navbar from './Navbar';
+import bg from '../assets/hero-bg.png';
 
 const Hero = () => {
   return (
     <div
       className="bg-cover bg-no-repeat bg-center h-[87.5rem]  w-full "
-      style={{ backgroundImage: "url('/src/assets/hero-bg.png')" }}
+      style={{ backgroundImage: `url(${bg})` }}
     >
       <Navbar />
 

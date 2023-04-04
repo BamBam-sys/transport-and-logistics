@@ -1,6 +1,10 @@
 import React from 'react';
 import { Button, TitleTag } from '../common';
 import calenderIcon from '../assets/calender-icon.png';
+import bg1 from '../assets/blog-img1.png';
+import bg2 from '../assets/blog-img2.png';
+import bg3 from '../assets/blog-img3.png';
+import bg4 from '../assets/hero-bg.png';
 
 const Blog = () => {
   return (
@@ -17,7 +21,7 @@ const Blog = () => {
             <div className=" flex gap-[2rem]  border border-transparent border-r-[#D6D6D6] pr-[2rem] ">
               <div
                 className="bg-cover bg-no-repeat bg-center w-[45.3rem]  h-[30.8rem] "
-                style={{ backgroundImage: "url('/src/assets/blog-img1.png')" }}
+                style={{ backgroundImage: `url(${bg1})` }}
               ></div>
               <div className="flex flex-col items-center ">
                 <img src={calenderIcon} alt="calender icon" />
@@ -51,7 +55,7 @@ const Blog = () => {
             <div className=" flex gap-[2rem]  border border-transparent border-r-[#D6D6D6] pr-[2rem] ">
               <div
                 className="bg-cover bg-no-repeat bg-center w-[45.3rem]  h-[30.8rem] "
-                style={{ backgroundImage: "url('/src/assets/blog-img2.png')" }}
+                style={{ backgroundImage: `url(${bg2})` }}
               ></div>
               <div className="flex flex-col items-center ">
                 <img src={calenderIcon} alt="calender icon" />
@@ -85,7 +89,7 @@ const Blog = () => {
             <div className=" flex gap-[2rem]  border border-transparent border-r-[#D6D6D6] pr-[2rem] ">
               <div
                 className="bg-cover bg-no-repeat bg-center w-[45.3rem]  h-[30.8rem] "
-                style={{ backgroundImage: "url('/src/assets/blog-img3.png')" }}
+                style={{ backgroundImage: `url(${bg3})` }}
               ></div>
               <div className="flex flex-col items-center ">
                 <img src={calenderIcon} alt="calender icon" />
@@ -119,7 +123,7 @@ const Blog = () => {
             <div className=" flex gap-[2rem]  border border-transparent border-r-[#D6D6D6] pr-[2rem] ">
               <div
                 className="bg-cover bg-no-repeat bg-center w-[45.3rem]  h-[30.8rem] "
-                style={{ backgroundImage: "url('/src/assets/hero-bg.png')" }}
+                style={{ backgroundImage: `url(${bg4})` }}
               ></div>
               <div className="flex flex-col items-center ">
                 <img src={calenderIcon} alt="calender icon" />

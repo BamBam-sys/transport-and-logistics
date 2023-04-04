@@ -7,6 +7,7 @@ import clockIcon from '../assets/clock-icon-2.png';
 import shipIcon from '../assets/ship-icon2.png';
 import commsIcon from '../assets/comms-icon.png';
 import pricingIcon from '../assets/pricing-icon.png';
+import bg from '../assets/airline.png';
 
 const iconTextData = [
   {
@@ -43,8 +44,7 @@ const WhyChoose = () => {
         <div
           className="bg-cover bg-no-repeat bg-center h-[61rem]  w-[82.9rem] absolute top-[50%] transform translate-y-[-50%] left-[8rem] flex justify-center items-end bg-blend-lighten "
           style={{
-            backgroundImage:
-              "linear-gradient(64.04deg, #070F3C 17.44%, rgba(18, 42, 171, 0) 103.55%), url('/src/assets/airline.png')",
+            backgroundImage: `linear-gradient(64.04deg, #070F3C 17.44%, rgba(18, 42, 171, 0) 103.55%), url(${bg})`,
             backgroundRepeat: 'no-repeat',
             backgroundPosition: 'center',
             backgroundSize: 'cover',
@@ -53,7 +53,6 @@ const WhyChoose = () => {
           <div
             className=" w-[41.7rem] h-[13.9rem] flex items-center justify-center gap-[3rem] "
             style={{
-              backgroundImage: "url('/src/assets/airline.png')",
               background:
                 'linear-gradient(94.06deg, #FFB629 -1.21%, #FFDA56 58.66%, #FFD7A6 116.84%)',
             }}
